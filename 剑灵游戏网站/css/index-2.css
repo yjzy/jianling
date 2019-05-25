@@ -1,0 +1,154 @@
+/*清除元素默认的内外边距  */
+* {
+    margin: 0;
+    padding: 0
+}
+/*让所有斜体 不倾斜*/
+em,
+i {
+    font-style: normal;
+}
+/*去掉列表前面的小点*/
+li {
+    list-style: none;
+}
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+img {
+    border: 0;  /*ie6*/
+    vertical-align: middle;
+}
+/*让button 按钮 变成小手*/
+button {
+    cursor: pointer;
+}
+/*取消链接的下划线*/
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e33333;
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    /*取消轮廓线 蓝色的*/
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none;
+}
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+/* 正文 */
+.clear {
+    clear:both; 
+    height:0px; 
+    overflow:hidden;
+}
+.hidden {
+    display:none;
+}
+body {
+    font-size:12px; 
+    color:#666666;
+    font-family:simsun;
+}
+.wrap {
+    background:#f1f1f1 url(../images/colorBelt1.jpg) repeat-x 50% 0;
+}
+#header{
+    max-width:1000px;
+    margin:0 auto; 
+    padding:36px 0 0 ;
+}
+#header h1 {
+    max-width:1000px; 
+    height:160px; 
+    margin:0 auto; 
+    padding-top:20px; 
+    background:#ffffff url(../images/contract_logo.jpg) no-repeat 42px 20px;
+}
+#header a {
+    display:block; 
+    width:172px; 
+    height:53px; 
+    overflow:hidden; 
+    text-indent:-9999px; 
+    margin:0 0 0 42px;
+}
+.content {
+    width:920px; 
+    margin:-105px auto 0;
+    padding:0 40px 40px;background:#fff;
+    line-height:22px;
+}
+.content h2 {
+    height:40px; 
+    line-height:40px; 
+    padding:0 0 25px; 
+    margin:0 0 25px; 
+    font-family:Microsoft YaHei; 
+    font-size:30px; 
+    line-height:40px; 
+    font-weight:normal; 
+    text-align:center; 
+    border-bottom:1px solid #d1d1d1;
+}
+.content h3 {
+    margin:20px 0 5px;
+}
+.content a {
+    text-decoration:underline;
+}
+.content a:hover{
+    color:#f00; 
+    text-decoration:underline;
+}
+.author {
+    padding:10px 0; 
+    text-align:right; 
+    font-weight:bold;
+}
+#footer_ied{
+    height:146px;
+    text-align:center; 
+    font-size:12px; 
+    line-height:19px; 
+    font-family:Tahoma;
+}
+.wrap_ied{ 
+    margin:0 auto; 
+    padding:20px 0 0; 
+    color:#666666;
+}
+.wrap_ied p a {
+    color:#666666;
+}
+.wrap_ied p a:hover {
+    color:#f00;
+}
+#footer_ied .e{ 
+    margin-top:-4px; 
+    font-size:10px;
+}

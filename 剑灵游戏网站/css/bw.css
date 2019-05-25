@@ -1,0 +1,214 @@
+body {
+    height: 884px;
+    background: url(../images/wrap_bg.jpg) no-repeat center 120px;
+}
+.nav {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
+.nav_l {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    height: 50px;
+    width: 1300px;
+    margin: 40px auto 30px;
+    background: url(../images/spr24.png) repeat 0px -104px;
+}
+.nav_l ul li{
+    float: left;
+    padding: 0 10px;
+}
+.nav_l li a {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+.nav_l .lis a {
+    color: #5B834E;
+}
+.nav_l .lis a span {
+    color: red;
+}
+.nav_l li a:hover{
+    color: red;
+}
+.nav_l .lis a:hover {
+    color: #5B834E;
+}
+.jian {
+    position: relative;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 124px;
+    height: 103px;
+    background: url(../images/spr24.png) repeat 0px 0px;
+}
+.jian a {
+    float: left;
+    width: 124px;
+    height: 103px;
+}
+.deng {
+    float: right;
+    width: 77px;
+    height: 32px;
+    background: url(../images/spr24.png) no-repeat 0px -186px;
+}
+.deng a {
+    float: left;
+    width: 77px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #FBFBFD;
+    font-size: 12px;
+}
+.deng a:hover{
+    color: red;
+}
+
+.section {
+    margin: 0 auto;
+    width: 930px;
+    height: 500px;
+    padding: 0 35px;
+    background: url(../images/main_bg.jpg);
+}
+.section_1 {
+    float: left;
+    margin-top: 240px;
+    width: 930px;
+    height: 60px;
+    border-bottom: 1px solid #FFF;
+}
+.section select {
+    width: 314px;
+    height: 40px;
+}
+.section span {
+    float: right;
+    width: 140px;
+    height: 20px;
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.section_2 {
+    float: left;
+    width: 930px;
+    height: 48px;
+    margin-top: 20px;
+}
+.section_2 .li1 a {
+    float: left;
+    width: 182px;
+    height: 48px;
+    margin-right: 20px;
+    background: url(../images/btns.png) no-repeat -183px 0px;
+}
+.section_2 .li2 a {
+    float: left;
+    width: 182px;
+    height: 48px;
+    background: url(../images/btns.png) no-repeat -184px -50px;
+}
+.section_2 select {
+    float: right;
+    width: 122px;
+    height: 26px;
+    margin: 11px 10px 0 0;
+}
+.section_3{
+    float: left;
+    width: 930px;
+    height: 315px;
+    margin-top: 20px;
+}
+.section_3 ul li {
+    float: left;
+    width: 930px;
+    height: 63px;
+}
+.section_3 .lia {
+    background-color: #171717;
+}
+.section_3 ul span {
+    margin-top: 0;
+}
+.section_3 .lia span {
+    float: left;
+    width: 78px;
+    height: 63px;
+    background: url(../images/icons_1.png) no-repeat 0px 0px;
+}
+.section_3 .lib {
+    background-color: #000000;    
+}
+.section_3 .lib span {
+    float: left;
+    width: 78px;
+    height: 63px;
+    background: url(../images/icons_1.png) no-repeat -78px 0px;
+}
+.section_3 .lic {
+    background-color: #171717;
+}
+.section_3 .lic span {
+    float: left;
+    width: 78px;
+    height: 63px;
+    background: url(../images/icons_1.png) no-repeat -156px 0px;
+}
+.section_3 .lid {
+    background-color: #000000;
+}
+.section_3 .lid span {
+    float: left;
+    width: 78px;
+    height: 63px;
+    text-align: center;
+    line-height: 63px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    background: url(../images/icon_gray.png) no-repeat 0px 0px;
+}
+.section_3 .lie {
+    background-color: #171717;
+}
+.section_3 .lie span {
+    float: left;
+    width: 524px;
+    height: 47px;
+    margin-left: 200px;
+    margin-top: 8px;
+    background: url(../images/btns.png) no-repeat 0px -147px;
+}
+.section_3 li img {
+    float: left;
+}
+.section_3 li i {
+    float: left;
+    height: 63px;
+    margin-left: 10px;
+    font-style: normal;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 63px;
+}
+.section_3 li b {
+    float: right;
+    height: 63px;
+    margin-right: 20px;
+    font-style: normal;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 63px;
+}

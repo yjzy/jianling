@@ -1,0 +1,289 @@
+/*清除元素默认的内外边距  */
+* {
+    margin: 0;
+    padding: 0
+}
+/*让所有斜体 不倾斜*/
+em,
+i {
+    font-style: normal;
+}
+/*去掉列表前面的小点*/
+li {
+    list-style: none;
+}
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+img {
+    border: 0;  /*ie6*/
+    vertical-align: middle;
+}
+/*让button 按钮 变成小手*/
+button {
+    cursor: pointer;
+}
+/*取消链接的下划线*/
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00bef2;
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    /*取消轮廓线 蓝色的*/
+    outline: none;
+}
+
+body {
+    background-color: #f5f5f5;
+    font: 14px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none;
+}
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+.w {
+    width: 1100px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/* 导航栏开始 */
+.header {
+    overflow: hidden;
+    height: 75px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow : 1px 1px 1px 1px rgba(0,0,0,.1);
+}
+.header .logo {
+    cursor: pointer;
+    width: 230px;
+    height: 50px;
+    background: url(../images/logo_1.png) no-repeat;
+    margin-top: 15px;
+}
+.header .merber {
+    width: 370px;
+    height: 75px;
+}
+.header .merber .kfzp {
+    margin-top: 25px;
+    float: left;
+}
+.header .merber .kfzp a {
+    height: 20px;
+    line-height: 20px;
+    width: 224px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 5px;
+}
+.header .merber .laba {
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    background: url(../images/laba.png) no-repeat ;
+}
+.header .merber .btn {
+    display: block;
+    width: 60px;
+    height: 30px;
+    background-color: #00ace9;
+    float: right;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.header .merber .btn:hover {
+    background-color: #00bef2;
+}
+.main {
+    position: relative;
+    height: 550px;
+}
+.main .container_left {
+    float: left;
+    width: 230px;
+    height: 502px;
+    background-color: #fff;
+    margin-left: 4px;
+    border: 1px solid #e5e5e5;
+    margin: 25px 0;
+}
+.main .container_left .product_logo {
+    margin-left: 5px;
+}
+.main .container_left a {
+    display: block;
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+}
+.main .container_left .current {
+    background-color: #00ace9;
+    color: #fff;
+}
+.main .container_left ul li {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.main .container_right {
+    float: right;
+    margin-right: 4px;
+    width: 845px;
+    height: 502px;
+    background-color: #fff;
+    margin-top: 25px;
+    border: 1px solid #e5e5e5;
+}
+.main .container_right .searchBox {
+    position: relative;
+    height: 40px;
+    padding: 30px 44px;
+}
+.main .container_right .kf_mod_searchBox {
+    width: 660px;
+    height: 40px;
+    background-color: #fff;
+    position: relative;
+}
+.main .container_right .kf_mod_searchBox input {
+    border: 1px solid #dedede;
+    background-color: transparent;
+    height: 38px;
+    line-height: 38px;
+    width: 80%;
+    padding-left: 2%;
+    padding-right: 10%;
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.main .container_right .kf_mod_searchBox input:focus {
+    border-color: #00ace9;
+}
+.main .container_right .kf_mod_searchBox .btn1 {
+    display: block;
+    width: 45px;
+    height: 40px;
+    background: url(../images/anniu.png);
+    float: right;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.main .container_right .cont_list {
+    padding: 18px 45px;
+}
+.main .container_right .cont_list dl dd {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 107px;
+    padding-top: 34px;
+    padding-bottom: 18px;
+    border-top: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.footer .topArea {
+    margin-bottom: 22px;
+}
+.footer .topArea ul {
+    height: 45px;
+    overflow: hidden;
+    text-align: center;
+}
+.footer .topArea ul li {
+    height: 45px;
+    display: inline-block;
+    position: relative;
+    margin: 0 25px;
+}
+.footer .topArea ul li>i {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+}
+.footer .topArea .icon-serve {
+    background: url(../images/icon-service.png) 50% no-repeat;
+}
+.footer .topArea .icon-er {
+    background: url(../images/icon-money.png) 50% no-repeat;
+}
+.footer .topArea .icon-san {
+    background: url(../images/icon-weipay.png) 50% no-repeat;
+}
+.footer .topArea .icon-si {
+    background: url(../images/icon-teenager.png) 50% no-repeat;
+}
+.footer .topArea .icon-wu {
+    background: url(../images/icon-consult.png) 50% no-repeat;
+}
+.footer .topArea .service-txt {
+    padding-left: 50px;
+    text-align: left;
+
+}
+.footer .topArea .service-txt h3 {
+    font-weight: normal;
+    color: #000;
+    font-size: 14px;
+
+}
+.footer .bottomArea {
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+}
+.footer .bottomArea ul {
+    height: 20px;
+    line-height: 20px;
+}
+.footer .bottomArea ul li {
+    display: inline-block;
+    font-size: 12px;
+    padding-right: 8px;
+    margin-right: 5px;
+    position: relative;
+}
+.footer .bottomArea ul li a {
+    color: #888;
+}

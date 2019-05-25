@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/新手指南.css">
+	<link rel="shortcut icon" href="fonts/favicon.ico" type="image/x-icon">
+	<script src="js/jquery-1.12.2.js"></script>
+	<script>	
+	 	$(function(){
+	 		$(".aside_little>li").mouseover(function(){
+	 			$(this).stop().animate({"opacity":0.5},100).css("color","#fff");
+	 		});
+	 		$(".aside_little").mouseout(function(){
+	 			$(this).find("li").stop().animate({"opacity":1},100);
+	 		});
+	 	})
+	</script>
+</head>
+<body>
+	<!-- 头部区域 -->
+	<div class="header-w">
+		<div class="header">
+			<div class="logo-a">
+				<a href="html/index.html"><img src="images/head-logo.png" alt=""></a> 
+			</div>
+			<span class="line"></span>
+			<div class="logo-b">
+				<a href="#">
+					<img src="images/2head-logo.png" alt="">
+				</a>
+			</div>
+			<div class="right">
+			<div class="green">
+				<img src="images/3head.png" alt="">
+				<span><a href="#">成长守护平台</a></span>
+			</div>
+				<div class="game">
+					<a href="#">腾讯游戏排行榜</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 导航栏区域 -->
+	<div class="nav-w">
+	<div class="nav">
+		<div class="logo">
+			<a href="#"></a>
+		</div>
+		<div class="item">
+			<a href="#" class="current">游戏特色</a>
+			<i class="iconfont icon-more"></i>
+			<a href="#">下载客户端</a>
+			<i class="iconfont icon-more"></i>
+			<a href="#">新手引导</a>
+		</div>
+	</div>
+	</div>
+	<!-- 内容区域 -->
+	<div class="conntent">
+		<!-- 左侧导航 -->
+		<div class="conntent-subnav">
+			<ol class="aside_nav">
+			<!-- 1.进入游戏 -->
+				<li class="aside_i">
+					<a href="#" title="进入游戏" class="aside_t aside_t1"></a>
+					<ul class="aside_little">
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								检查配置
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								下载安装
+							</a>
+						</li>
+					</ul>
+				</li>
+			<!-- 2.新手引导 -->
+				<li class="aside_i">
+					<a href="#" title="新手引导" class="aside_t aside_t2"></a>
+					<ul class="aside_little" style="display:block">
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								创建角色							
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								游戏界面
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								基本操作
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								战斗指南
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								能力值
+							</a>
+						</li>
+					</ul>
+				</li>
+			<!-- 3.世界观 -->
+				<li class="aside_i">
+					<a href="#" title="世界观" class="aside_t aside_t3"></a>
+					<ul class="aside_little">
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								人
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								龙
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								灵
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								天
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								角色介绍
+							</a>
+						</li>
+					</ul>
+				</li>
+			<!-- 4.系统 -->
+				<li  class="aside_i">
+						<a href="#" title="系统" class="aside_t aside_t4"></a>
+						<ul class="aside_little">
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								人
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								龙
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								灵
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								天
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								角色介绍
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								世界背景
+							</a>
+						</li>
+					</ul>
+				</li>
+			<!-- 5.角色成长 -->
+				<li  class="aside_i">
+					<a href="#" title="角色成长" class="aside_t aside_t5"></a>
+					<ul class="aside_little">
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								活力值
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								任务
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								副本
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								欢乐大转盘
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								英雄之证
+							</a>
+						</li>
+					</ul>
+				</li>
+			<!-- 6.PVP -->
+				<li class="aside_i">
+					<a href="#" title="pvp" class="aside_t aside_t6"></a>
+					<ul class="aside_little">
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								基础
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								势力
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								比武场
+							</a>
+						</li>
+					</ul>
+				</li>
+			<!-- 7.装备 -->
+				<li class="aside_i">
+					<a href="#" title="装备" class="aside_t aside_t7"></a>
+					<ul class="aside_little">
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								武器
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								八卦
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								装备养成
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								宝石
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								饰品
+							</a>
+						</li>
+					</ul>
+				</li>
+			<!-- 8.社交 -->
+				<li class="aside_i">
+					<a href="#" title="社交" class="aside_t aside_t8"></a>
+					<ul class="aside_little">
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								好友
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								组队
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								门派
+							</a>
+						</li>
+						<li class="aside_item">
+							<a href="#" class="aside_to">
+								<i class="aside_arrow"></i>
+								沟通
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		<!-- 右侧 -->
+		<div class="conntent-right">
+			<div class="role">
+				<p>创建角色</p>
+			</div>
+			<div class="aa">
+			<span class="create">创建角色时可以选择角色的种族、职业和性别，自定义角色外形，创建属于自己的个性角色。</span>
+			<p class="choose">选择种族和职业</p>
+			</div>
+			<div class="st-one">
+				<img src="images/a1.jpg" alt="">
+			</div>
+			<div class="bb">
+				<p>剑灵中有人、龙、灵、天4个种族，各种族可以选择的职业各不相同，一共有6种职业。</p>
+				<p>参考画面左侧的解说，选择适合自己的种族和职业。</p>
+			</div>
+			<div class="st-two">
+				<img src="images/person.jpg" alt="">
+			</div>
+			<div class="st-three">
+				<p class="cc">设定角色外形</p>
+				<div class="pic">
+					<img src="images/a2.jpg" alt="">
+				</div>
+				<span class="one">确定了种族、职业和性别后，就可以对角色的外形进行设定了。</span>
+				<br>
+				<br>
+				<p class="two">一共有默认、脸部装扮、调节脸部细节和调节身体细节四大部分，每一部分有眼鼻嘴、脸型、下巴、身高、体形等诸多细节可以设定。可以以默认的形象为基础，勾勒出属于自己独一无二的游戏形象。</p>
+				<br>
+				<br>
+			</div>
+			<div class="st-four">
+				<p class="dd">
+					选择服务器
+				</p>
+				<div class="img">
+					<img src="images/a3.jpg" alt="">
+				</div>
+				<p class="ee">
+					角色外形设定完毕后，可以设定角色名字并选择想要进行游戏的服务器。
+角色名字由中文、英文和数字组成，在所在大区的所有服务器中是唯一的。
+想和朋友一起玩的话，就必须和朋友选择同一个服务器。
+				</p>
+			</div>
+			<div class="st-five">
+				<p class="ff">修改角色外形与增加角色栏</p>
+				<div class="picture">
+					<img src="images/a4.jpg" alt="">
+				</div>
+				<p class="gg">游戏的进行过程中，如果对角色的外形不满意，可以在游戏商城中购买形象重置券，然后返回选择角色界面，选择角色并重新设置形象。</p>
+				<p class="hh">如果已经占用全部5个角色栏，可以在游戏商城中购买角色扩展券，然后返回选择角色界面，进行增加角色栏的操作。</p>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!-- 底部区域 -->
+	<div class="footer-w">
+		<div class="footer">
+			<p>
+				<a href="#">腾讯互动娱乐</a>&nbsp&nbsp|
+				<a href="#">服务条款</a>&nbsp&nbsp|
+				<a href="#">腾讯游戏隐私保护指引</a>&nbsp&nbsp|
+				<a href="#">广告服务</a>&nbsp&nbsp|
+				<a href="#">腾讯游戏招聘</a>&nbsp&nbsp|
+				<a href="#">腾讯游戏客服</a>&nbsp&nbsp|
+				<a href="#">游戏地图</a>&nbsp&nbsp|
+				<a href="#">成长守护平台</a>&nbsp&nbsp|
+				<a href="#">商务合作</a>&nbsp&nbsp|
+				<a href="#">网站导航</a>
+			</p>
+			<p>COPYRIGHT © 1998 – 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+			<p>
+				<a href="#">腾讯公司</a>
+				<a href="#">版权所有</a>
+			</p>
+		</div>
+	</div>
+</body> 
+</html>

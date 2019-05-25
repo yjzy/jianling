@@ -1,0 +1,266 @@
+/*内容区域*/
+.conntent{
+	background: url(../images/handbookbg.jpg) right top no-repeat #131c25;
+    position: relative;
+}
+.conntent-right{
+	width: 982px;
+    min-height: 2320px;
+    margin-left: 260px;
+    padding-left: 20px;
+    position: relative;
+}
+/*左侧*/
+.conntent-subnav{
+	float: left;
+	width: 260px;
+	height: 730px;
+}
+.conntent-subnav ol ul{
+	margin: 0;
+	padding: 0;
+}
+.aside_nav {
+    width: 100%;
+}
+.aside_nav ol{
+	list-style: none;
+}
+
+/*第一个*/
+a{
+	text-decoration: none;
+	color: #FFF;
+}
+.aside_i {
+    width: 100%;
+    font-size: 0;
+}
+.aside_t {
+    display: block;
+    width: 100%;
+    height: 68px;
+}
+.conntent-subnav ul{
+	display: none;
+}
+.aside_little{
+	width: 100%;
+}
+.aside_item {
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+}
+.aside_to {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/aside_navo_bg.png) repeat-x;
+    color: #131c24;
+    font-size: 12px;
+}
+.aside_arrow {
+    display: inline-block;
+    width: 11px;
+    height: 12px;
+    margin: 0 15px 0 32px;
+    background: url(../images/right-b.png) 0 0 no-repeat;
+}
+/*.icur, .aside_t {
+    background-position: -260px 0;
+}
+.icur, .aside_sittle {
+    display: block;
+}*/
+/*1.进入游戏 */
+.aside_t1{
+	background: url(../images/aside_nav_1.png) 0 0 no-repeat;
+}
+/*2.新手引导*/
+.aside_t2{
+	background: url(../images/aside_nav_2.png) 0 0 no-repeat;
+}
+/*3.世界观
+*/.aside_t3{
+	background: url(../images/sjg.png) 0 0 no-repeat;
+}
+/*4.系统 */
+.aside_t4{
+	background: url(../images/xt.png) 0 0 no-repeat;
+}
+/*5.角色成长*/
+.aside_t5{
+	background: url(../images/jscz.png) 0 0 no-repeat;
+}
+/*6.PVP */
+.aside_t6{
+	background: url(../images/nl.png) 0 0 no-repeat;
+}
+/*7.装备*/
+.aside_t7{
+	background: url(../images/zb.png) 0 0 no-repeat;
+}
+ /*8.社交 */
+.aside_t8{
+	background: url(../images/sj.png) 0 0 no-repeat;
+}
+/*右侧*/
+.role{
+	float: left;
+	width: 703px;
+	height: 116px;
+	border-bottom: 2px solid #776B6B;
+	margin-bottom: 10px;
+}
+.role p{
+	line-height: 116px;
+	color: #C43513;
+	font-size: 35px;
+	font-family: 'Microsoft YaHei';
+}
+.aa{
+	width: 700px;
+	height: 20px;
+}
+.create{
+	color: #89a6c4;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+}
+.choose{
+	color: #FFF;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+    font-weight: 800;
+    margin: 15px 0 8px 0;
+}
+.st-one{
+	width: 600px;
+	height: 338px;
+	border:4px solid #333333;
+	position: absolute;
+	top: 200px;
+	left: 18px;
+}
+.st-one img{
+	width: 100%;
+}
+.bb{
+	position: absolute;
+	top: 550px;
+	left: 18px;
+	width: 610px;
+	height: 85px;
+}
+.bb p{
+	color: #89a6c4;
+	font-size: 14px;
+	margin: 10px 0;
+}
+.st-two{
+	width: 306px;
+	height: 396px;
+	border:4px solid #333333;
+	position: absolute;
+	top: 620px;
+	left: 18px;
+	margin-bottom: 30px;
+}
+.st-two img{
+	width: 100%;
+}
+.st-three{
+	width: 703px;
+	height: 510px;
+	position: absolute;
+	top: 1040px;
+	left: 18px;
+	border-bottom: 1px solid #ccc;
+}
+.st-three .cc{
+	color: #FFF;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+    font-weight: 800;
+    margin: 15px 0 8px 0;
+}
+.st-three .pic{
+	width: 610px;
+	height: 343px;
+	margin-bottom: 10px;
+	border:4px solid #333333;
+}
+.st-three .pic img{
+	width: 100%;
+}
+.st-three .one{
+	color: #89a6c4;
+	font-size: 14px;
+}
+.st-three .two{
+	color: #89a6c4;
+	font-size: 14px;
+	margin: 15px 0；
+}
+.st-four{
+	width: 467px;
+	height: 410px;
+	position: absolute;
+	top: 1570px;
+	left: 18px;
+	border-bottom: 1px solid #ccc;
+}
+.st-four .dd{
+	color: #FFF;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+    font-weight: 800;
+    margin: 15px 0 8px 0;
+}
+.st-four .img{
+	width: 456px;
+	height: 272px;
+	border:4px solid #333333;
+	margin-bottom: 10px;
+}
+.st-four .pic img{
+	width: 100%;
+}
+.st-four .ee{
+	color: #89a6c4;
+	font-size: 14px;
+	margin: 15px 0；
+}
+.st-five{
+	width: 703px;
+	height: 300px;
+	position: absolute;
+	top:2010px;
+	left: 18px;
+}
+.st-five .ff{
+	color: #FFF;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+    font-weight: 800;
+}
+.st-five .picture{
+	width: 420px;
+	height: 150px;
+	border:4px solid #333333;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+.st-five .picture img{
+	width: 100%;
+}
+.st-five .gg, .hh{
+	color: #89a6c4;
+	font-size: 14px;
+	margin: 15px 0；
+}
+/*底部*/
+.footer-w{
+	margin-top: 0px;
+}

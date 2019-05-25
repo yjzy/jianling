@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="腾讯游戏帮帮" />
+    <meta name="Copyright" content="Tencent" />
+    <meta name="Keywords" content="剑灵攻略,剑灵加点,剑灵装备养成,剑灵武器成长,剑灵捏脸数据,剑灵新手礼包,剑灵活动,剑灵帮帮,剑灵帮帮官网,帮豆官网,帮豆,帮豆活动,帮帮官网,腾讯游戏帮帮,腾讯帮帮官网,剑灵,剑灵官网,剑灵职业,帮帮出品,帮帮攻略" />
+    <meta name="Description" content="腾讯游戏帮帮(bang.qq.com)是一款由腾讯游戏官方提供,满足腾讯游戏玩家在攻略服务需求，帮助玩家更好体验游戏的攻略服务产品。主要包含帮帮精灵、帮帮问答、帮帮有图三大核心功能。" />
+    <title>剑灵 bns攻略专区_帮帮问答_腾讯游戏帮帮</title>
+    <link rel="shortcut icon" href="fonts/favicon (1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index2.css">
+    <script src="js/jquery-1.12.2.min.js"></script>
+</head>
+<body>
+    <div class="head" id="top">
+        <div class="w1">
+        <div class="head-l fl"></div>
+        <div class="head-r fr">
+            <a href="html/index.html"><span class="one"></span>首页</a>
+            <a href=""><span class="two"></span>登录</a>
+            <a href="" id="three"><span class="three">
+                
+
+            </span>站内地图
+            <div class="header-layer"style="display:none;" >
+					<div class="header-link-list " >
+						<a href='/gl/index/bns' class="red" target='_blank'>剑灵</a><a href='/gl/index/nz'  target='_blank'>逆战</a><a href='/wenda/index/speed'  target='_blank'>QQ飞车</a><a href='/wenda/index/x5'  target='_blank'>QQ炫舞</a><a href='/wenda/index/qldy'  target='_blank'>枪林弹雨</a><a href='/wenda/index/jf'  target='_blank'>疾风之刃</a><a href='/gl/index/cf'  target='_blank'>穿越火线</a><a href='/gl/index/huo'  target='_blank'>火影忍者OL</a><a href='/wenda/index/codol'  target='_blank'>使命召唤OL</a><a href='/gl/index/dnf'  target='_blank'>地下城与勇士</a><a href='/wenda/index/mho'  target='_blank'>怪物猎人OL</a><a href='/wenda/index/lol'  target='_blank'>英雄联盟</a><a href='/gl/index/wuxia'  target='_blank'>天涯明月刀</a><a href='/wenda/index/age'  target='_blank'>上古世纪</a><a href='/gl/index/nba2k'  target='_blank'>NBA2KOL</a><a href='/wenda/index/xx'  target='_blank'>寻仙</a><a href='/wenda/index/wt'  target='_blank'>战争雷霆</a>					</div>
+					<div class="header-nav-tab">
+						<a href="//bang.qq.com" target="_bang_homepage">返回首页</a>
+						<a href="/wenda/index/bns" target="_blank">帮帮问答</a>
+						<a href="/shop/index/bns" target="_blank">帮豆兑换</a>
+						<!--a href="">个人中心</a-->
+						<a href="javascript:void(0);" onclick="showDialog.show({id:'feedbackDialog',bgcolor:'#000',opacity:70});Base.reportEvent(3, 3043, 0, 'bns');">意见反馈</a>
+					</div>
+                </div>
+        </a>
+            
+        
+        </div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $('#three').mouseover(function(){
+                $(this).siblings('.header-layer').show();
+                $(this).css('background-color','#fff');
+            })
+            $('#three').mouseout(function(){
+                $(this).siblings('.header-layer').hide();
+                $(this).css('background-color','');
+            })
+        })
+    </script>
+    <div class="box">
+        <div class="w">
+            <div class="content">
+            <h2>剑灵-自助工具专区</h2>
+            <div class="nav-list" >
+                    <ul class="clearfix">
+                              <li >
+                            <a href="/gl/index/bns">专区首页</a>
+                        </li>
+                                    <li >
+                            <a href="/wenda/index/bns">帮帮问答</a>
+                        </li>
+                                    <li >
+                            <a href="/shop/index/bns">帮豆兑换</a>
+                        </li>
+                                    <li  >
+                            <a href="/actcenter/index/bns" Onclick="Base.reportEvent(6, 6004);">福利中心</a>
+                        </li>
+                                     <li  >
+                            <a href="/wenda/tag/原创/0/bns">原创作品区</a>
+                        </li>
+                          </ul>
+                        <div class="center">
+                        <input id="keyword" class="input-search" type="text" data-default="视频" value="视频">
+                        <span class="search">搜索</span>
+                        <a href="javascript:void(0);" class="collect-site" onclick="AddFavorite(window.location,document.title)" >收藏本站</a>
+                        </div>
+                       
+            </div>
+            <script>
+                $(function(){
+                    $('.clearfix>li').mouseover(function(){
+                        $(this).css('background-color','#fff');
+                        $(this).children('a').css('color','#0A88F3');
+                    })
+                    $('.clearfix>li').mouseout(function(){
+                        $(this).css('background-color','');
+                        $(this).children('a').css('color','');
+                    })
+                    $('.search').mouseover(function(){
+                        $(this).css('background-color','orange');
+                       
+                    })
+                    $('.search').mouseout(function(){
+                        $(this).css('background-color','');
+                        
+                    })
+                    $('.collect-site').mouseover(function(){
+                        $(this).css('background-color','#fff');
+                        $(this).css('color','#0A88F3');
+                       
+                    })
+                    $('.collect-site').mouseout(function(){
+                        $(this).css('background-color','');
+                        $(this).css('color','');
+                        
+                    })
+                })
+            </script>
+            <div class="content1">
+                <div class="content1-l fl">
+                    <div class="chaxun">
+                    </div>
+                    <div class="programa-info clearfix">
+                            <div class="programa-pic">
+                                 <img width="100" height="100" src="http://shp.qpic.cn/tgos/201508m2/25ee418222e3c57f682d6c665325b0a9/0">
+                            </div>
+                            <div class="programa-name">
+                               <span>剑灵工具专栏</span>
+                               <img src="images/logo_small.png" width="20" height="20" alt="腾讯游戏帮帮">
+                               <p class="intro">助你省时省力玩游戏</p>
+                            </div>
+                            <div class="programa-operate">
+                                <div class="programa-num"><span class="s" style= "display:none;">0<br>浏览量</span><span class="s s2"><span id="JS-subscribe-num">3585</span><br>已订阅人数</span><span class="arrow"></span></div>
+                                <a href="javascript:void(0)" class="btn-dy" id="JS-subscribe-btn">订&nbsp;&nbsp;阅</a>
+                            </div>
+                    </div>
+                            <div class="list-programe">
+                                    <h3>栏目列表</h3>
+                                                    <div class="list-programe-bd">
+                                                            <div class="btn-more-tools"><a href="//helper.qq.com/" target="_blank" title="更多工具">&gt;&gt;更多工具</a></div>
+                                        </div>
+                                            </div>
+                    
+                       
+                
+             
+                </div>
+                <div class="content-r fr">
+                    <div class="content-rg">
+                        <div class="programa-right-hd">
+                                <h3>栏目作者<span class="header-line"></span></h3>
+                        </div>
+                            <div class="programa-right-bd">
+                               <div class="program-info">
+                                 <img src="images/daa8815342de453b869b35a5ad832382.gif" class="program-pic">
+                                 <span class="program-name">腾讯游戏帮帮</span> 
+                               </div>
+                               <div class="program-summary">
+                                 作者简介:<br>
+                                 <p style="text-indent:2em">我们致力于提供辅助游戏更省心体验的自助工具</p><p style="text-indent:2em">这里希望有你的参与；不限你的想法、已知的工具链接。</p><p style="text-indent:2em">另我们希望得到你的宝贵建议，或者发现工具问题时，可通过右下角意见反馈入口第一时间通知我们</p><p style="text-indent:2em">我们会尽快为你解决你的问题，与工具不足。</p>              </div>
+                                </div>
+                          </div>
+                              
+                              <div class="programa-right fr">
+                                
+                                  <a href="http://bang.qq.com/wenda/question/331428" target="_blank"><h3>新工具我来提<span class="header-line"><img src="images/icon_arrow.png" alt=""></span></h3></a>
+                                
+                              </div> 
+                            </div> 
+                  
+                </div>
+            </div>
+            </div> 
+            
+        </div>
+        <div class="img"><img src="images/tgp_code.jpg" alt="">
+            <p style=" font-size:12px; font-weight:bold; color: #ccc;padding-top: 5px;">「腾讯游戏助手」</p>
+        </div>
+       
+    </div>
+   <div class="corner">
+        <div class="to-top" id="totop" style="display:none;"></div>
+
+       <div class="corner2">
+            <p>我要<br>投稿</p>
+       </div>
+       <div class="corner3">
+            <p>意见<br>反馈</p>
+       </div>
+   </div>
+   <script>
+       $(function(){
+           $('.corner3').mouseover(function(){
+               $(this).css('background-color','#0A88F3');
+               
+           })
+           $('.corner3').mouseout(function(){
+               $(this).css('background-color','');
+               
+           })
+           $('.corner2').mouseover(function(){
+               $(this).css('background-color','#0A88F3');
+               
+           })
+           $('.corner2').mouseout(function(){
+               $(this).css('background-color','');
+               
+           })
+       })
+   </script>
+  
+    <div class="foot">
+            <div class="footer w">
+                    <a class="fl footspr tnd footer-tcgame" title="腾讯互动娱乐" target="_blank" href="//ieg.tencent.com/"><img src="images/foot.png" alt=""></a>
+                    <ul class="fr footer-flst">
+                        <li><a target="_blank" href="//ieg.tencent.com/">腾讯互动娱乐</a><span class="f9 plr10">|</span>
+                        <a target="_blank" href="//www.qq.com/contract.shtml">服务条款</a><span class="f9 plr10">|</span>
+                        <a target="_blank" href="//adver.qq.com/">广告服务</a><span class="f9 plr10">|</span>
+                        <a target="_blank" href="//game.qq.com/hr/">腾讯游戏招聘</a><span class="f9 plr10">|</span>
+                        <a target="_blank" href="//service.qq.com/">腾讯游戏客服</a><span class="f9 plr10">|</span>
+                        <a target="_blank" href="//tgact.qq.com/?g=lol">游戏活动</a><span class="f9 plr10">|</span>
+                        <a target="_blank" href="//game.qq.com/gnav/">游戏地图</a><span class="f9 plr10">|</span>
+                        <a target="_blank" href="//game.qq.com/portal2010/business.htm">商务合作</a><span class="f9 plr10">|</span>
+                        <a target="_blank" href="//www.qq.com/">腾讯网</a><span class="f9 plr10">|</span>
+                        <a target="_blank" href="//www.qq.com/map/">网站导航</a></li>
+                        <li class="f9">COPYRIGHT © 1998 - 2019 TENCENT. ALL RIGHTS RESERVED.<a target="_blank" href="//www.tencent.com/law/mo_law.shtml?/law/copyright.htm" class="c4F6">腾讯公司版权所有</a></li>
+                    </ul>
+                </div>
+            
+    </div> 
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

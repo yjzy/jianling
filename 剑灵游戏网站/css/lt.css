@@ -1,0 +1,218 @@
+body {
+    height: 1223px;
+    background: url(../images/605765e732104f718fda64c320edab7e.png) repeat -326px -257px;
+}
+ div ul li a:hover{
+    color: red;
+}
+.she {
+    width: 973px;
+    height: 115px;
+    margin: 0 auto;
+}
+.she ul li {
+    float: left;
+    margin-right: 10px;
+}
+.she li a {
+    font-size: 12px;
+    color: #000000;  
+}
+.logo {
+    float: left;
+    width: 973px;
+    height: 73px;
+    margin-top: 15px;
+}
+.logo h1 {
+    float: left;
+}
+.deng {
+    float: right;
+    width: 162px;
+    height: 55px;
+    margin-right: 10px;
+}
+.deng input {
+    border: none;
+    width: 75px;
+    height: 22px;
+}
+.deng input:hover {
+    background-color: #2975C4;
+    color: red;
+}
+.zhu {
+    float: right;
+    width: 81px;
+    height: 55px;
+    margin-left: 5px;
+    border-left: 1px solid gray;
+}
+.zhu ul li {
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.zhu ul li a {
+    font-size: 12px;
+    color: #333333;
+}
+/* 导航栏 */
+.nav {
+    position: absolute;
+    width: 973px;
+    height: 33px;
+    margin-left: 185px;
+    background-color: #2975C4;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    float: left;
+    width: 90px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    color: #FFFFF5;
+    font-size: 14px;
+    font-weight: 700;
+}
+.dh {
+    float: right;
+    width: 94px;
+    height: 23px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: #fff;
+}
+.dh p {
+    color: #2975C4;
+    font-size: 12px;
+    text-align: center;
+    line-height: 23px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav .ce {
+    position: relative;
+    top: 28px;
+    left: 755px;
+    width: 140px;
+    height: 50px;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-shadow: -2px 3px 0px 0px grey;
+    display: none;
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+}
+.nav .ce a {
+    color: #2975C4;
+}
+.sy {
+    position: absolute;
+    float: left;
+    width: 973px;
+    height: 12px;
+    margin: 45px 0 0 190px;
+}
+.sy img {
+    float: left;
+}
+.sy a {
+    float: left;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #333333;
+}
+.jing {
+    position: absolute;
+    float: left;
+    width: 960px;
+    height: 15px;
+    margin: 65px 0 0 193px;
+}
+.jing img {
+    float: left;
+    margin-right: 5px;
+}
+.jing span {
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #999999;
+}
+.jing i {
+    float: left;
+    height: 15px;
+    margin-right: 5px;
+    line-height: 15px;
+    font-style: normal;
+    font-size: 12px;
+    color: #444444;
+}
+.section {
+    width: 973px;
+    height: 1020px;
+    margin: 100px 0 0 185px;
+}
+.lun {
+    float: left;
+    width: 447px;
+    height: 270px;
+    margin: 0 12px 0 5px;
+    border: 1px solid gray;
+}
+.lun span {
+    float: left;
+    font-size: 12px;
+    width: 447px;
+    margin: 5px 0px 5px 10px;
+    color: #000000;
+}
+.lun_l {
+    position: absolute;
+    float: left;
+    width: 340px;
+    height: 230px; 
+    margin: 5px 0 0 10px;
+    overflow: hidden;
+}
+.lun_l ul {
+    position: relative;
+    top: 20px;
+    left: 0;
+    width: 1700px;
+}
+.lun_l ul li {
+    float: left;
+    width: 340px;
+    height: 230px;
+}
+.lun_r {
+    float: right;
+    width: 75px;
+    height: 230px;
+    margin-right: 10px;
+}
+.lun_r ol li {
+    float: left;
+    width: 70px;
+    height: 47px;
+    margin-bottom: 5px;
+}
+.lun_r img {
+    float: left;
+    width: 70px;
+    height: 47px;
+     
+}
+.current {
+    border: 2px solid gray;
+}

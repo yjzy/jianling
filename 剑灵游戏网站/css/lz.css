@@ -1,0 +1,416 @@
+.bj {
+    
+    height: 1000px;
+    background: url(../images/wrap.jpg)no-repeat -248px center;
+}
+/* 左侧导航栏 */
+.z {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 157px;
+    height: 1000px;
+}
+.z .logo {
+    float: left;
+    width: 157px;
+    height: 157px;
+}
+.z .logo a {
+    float: left;
+    width: 157px;
+    height: 157px;
+    background: url(../images/side-spr.png) no-repeat 0 0;
+}
+.z .dh {
+    float: left;
+    width: 157px;
+    height: 843px;
+    background: url(../images/side-bg.png) repeat;
+}
+.z .dh li {
+    float: left;
+    width: 157px;
+    height: 53px;
+}
+.z .dh li a{
+    float: left;
+    width: 120px;
+    height: 53px;
+    padding-left: 35px;
+    line-height: 53px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFC1;
+}
+.z .dh .li1 {
+    background: url(../images/side-spr.png) repeat  0 -170px;
+}
+.dh li a span {
+    float: left;
+    /* width: 40px;
+    height: 53px; */
+}
+.dh .li1 a span {
+    margin: 13px 20px 14px 0;
+    width: 20px;
+    height: 26px;
+    background: url(../images/side-spr.png) no-repeat  -161px -13px;
+}
+.dh .li2 a span {
+    margin: 16px 20px 16px 0;
+    width: 20px;
+    height: 21px;
+    background: url(../images/side-spr.png) no-repeat  -189px -16px;
+}
+.dh .li3 a span {
+    margin: 16px 18px 16px 0;
+    width: 22px;
+    height: 21px;
+    background: url(../images/side-spr.png) no-repeat  -216px -14px;
+}
+.dh .li4 a span {
+    margin: 14px 14px 15px 0;
+    width: 26px;
+    height: 24px;
+    background: url(../images/side-spr.png) no-repeat  -158px -67px;
+}
+.dh .li5 a span {
+    margin: 15px 20px 15px 0;
+    width: 20px;
+    height: 23px;
+    background: url(../images/side-spr.png) no-repeat  -188px -68px;
+}
+.dh .li6 a span {
+    margin: 14px 12px 14px 0;
+    width: 28px;
+    height: 25px;
+    background: url(../images/side-spr.png) no-repeat  -213px -66px;
+}
+/* 登录导航栏 */
+.box {
+    margin: 0 auto;
+    width: 800px;
+    margin-left: 175px;
+}
+.nav {
+    float: left;
+    width: 800px;
+    height: 152px;
+    margin: 20px 0 28px 0;
+}
+.tuxiang {
+    float: left;
+    width: 104px;
+    height: 104px;
+}
+.deng {
+    float: left;
+    width: 253px;
+    height: 104px;
+}
+.deng_t {
+    float: left;
+    width: 253px;
+    height: 24px;
+}
+.deng_t h2 {
+    float: left;
+    width: 170px;
+    height: 24px;
+    margin: 5px 0 0 15px;
+    font-size: 18px;
+    color: #FF6600;
+}
+.deng_t span {
+    float: right;
+    margin: 5px 15px 0 0;
+    width: 40px;
+    height: 14px;
+}
+.deng_t span a {
+    color: #FF6600;
+    font-size: 14px;
+}
+.deng_a {
+    float: left;
+    width: 250px;
+    height: 18px;
+    margin: 10px 0 0 15px;
+}
+.deng_a ul li {
+    float: left;
+    width: 60px;
+    height: 18px;
+    font-weight: 700;
+}
+.deng_a span {
+    color: #FF6600;
+    font-size: 16px;
+}
+.deng_a i {
+    font-style: normal;
+    color: #FFFFC1;
+    font-size: 13px;
+}
+.deng_b {
+    float: left;
+    width: 238px;
+    height: 32px;
+    margin: 19px 0 0 15px;
+}
+.deng_b .l,
+.deng_b .r {
+    float: left;
+    width: 100px;
+    height: 32px;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #494949;
+}
+.deng_b .l a,
+.deng_b .r a {
+    color: #93A0A0;
+    font-size: 13px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.deng_b .l span,
+.deng_b .r span{
+    color: #FF6600;
+}
+.boxr {
+    float: left;
+    width: 436px;
+    height: 104px;
+}
+.boxr ul {
+    width: 460px;
+}
+.boxr ul li {
+    float: left;
+    width: 104px;
+    height: 104px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.boxr ul li a {
+    float: left;
+    width: 104px;
+    height: 104px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    background: url(../images/side-spr.png) repeat -156px -105px;
+}
+.boxr ul .lia span{
+    float: left;
+    margin: 20px 35px 19px 35px;
+    width: 33px;
+    height: 33px;
+    background: url(../images/nav1.png) no-repeat;
+}
+.boxr ul .lib span{
+    float: left;
+    margin: 20px 35px 19px 35px;
+    width: 33px;
+    height: 33px;
+    background: url(../images/nav2.png) no-repeat;
+}
+.boxr ul .lic span{
+    float: left;
+    margin: 20px 32px 17px 33px;
+    width: 38px;
+    height: 35px;
+    background: url(../images/nav3.png) no-repeat;
+}
+.boxr ul .lid span{
+    float: left;
+    margin: 20px 38px 17px 37px;
+    width: 28px;
+    height: 35px;
+    background: url(../images/nav4.png) no-repeat;
+}
+.lun {
+    position: absolute;
+    width: 803px;
+    height: 450px;
+    top: 160px;
+    overflow: hidden;
+}
+.lun ul {
+    width: 5700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lun ul li {
+    float: left;
+}
+.lun ol {
+    position: relative;
+    bottom: -420px;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    height: 20px;
+}
+.lun ol li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+.lun ol .current {
+    background-color: #E42607;
+}
+.lun span {
+    position: relative;
+    display: none;
+    top: -50%;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color:red;
+}
+/* 放大图 */
+.fang {
+    position: absolute;
+    top: 620px;
+    left: 13%;
+    width: 803px;
+    height: 146px;
+}
+.fang ul {
+    width: 820px;
+}
+.fang ul li {
+    float: left;
+    width: 261px;
+    height: 146px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.bt {
+    position: absolute;
+    top: 850px;
+    left: 174px;
+    width: 803px;
+    height: 55px;
+}
+.btt {
+    float: left;
+    width: 650px;
+    height: 10px;
+    padding-left: 150px;
+}
+.btt ul li {
+    float: left;
+}
+.btt ul li a {
+    color: #464646;
+    font-size: 10px;
+    font-weight: 700;
+}
+.btz {
+    float: left;
+    width: 520px;
+    height: 10px;
+    margin:10px 0 0 200px;
+}
+.btz a {
+    font-size: 10px;
+    color: #464646;
+    font-weight: 700;
+}
+.btc {
+    margin: 10px 0 0 120px;
+    float: left;
+    width: 600px;
+    height: 10px;
+}
+.btc a {
+    font-size: 10px;
+    color: #464646;
+    font-weight: 700;
+}
+.bt a:hover{
+    color: #FFFFFF;
+}
+/* 登录 */
+.bja {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1350px;
+    height: 1000px;
+    background-color:rgba(0,0,0,0.7);
+
+}
+.qq {
+    position: fixed;
+    top: 150px;
+    left: 370px;
+    width: 620px;
+    height: 370px;
+    background-color: #FFFFFF;
+}
+.qq span {
+    float: right;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+    box-shadow: -2px 2px 3px 0px grey;
+    color: red;
+    cursor: pointer;
+}
+.qq_l {
+    float: left;
+    width: 225px;
+    height: 248px;
+    margin: 36px 0 0 197px;
+}
+.qq_l h3 {
+    float: left;
+    width: 225px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.qq_l p {
+    float: left;
+    width: 225px;
+    height: 36px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+.qq_l .er {
+    float: left;
+    width: 132px;
+    height: 132px;
+    margin: 40px 0 0 50px;
+}
+.qq_r {
+    float: right;
+    width: 210px;
+    height: 24px;
+    margin-top: 60px;
+}
+.qq_r ul li {
+    float: left;
+}
+.qq_r ul li a {
+    color: #666666;
+    font-size: 12px;
+}
